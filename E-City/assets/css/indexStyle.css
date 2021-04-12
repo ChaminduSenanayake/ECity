@@ -1,0 +1,157 @@
+body {
+	margin:0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-color: white;
+}
+
+.main-div{
+	background: url(../images/elec.jpg)no-repeat center center fixed;
+	background-size:auto;
+	position: inherit;
+	padding-top: 400px;
+	padding-left: 50px;
+	margin-top: 50px;
+	height:350px;
+}
+.main-div h1{
+	color: white;
+	font-size: 50px;
+}
+.main-div h2{
+	color: white;
+}
+.main-div button{
+	width: 250px;
+	height: 50px;
+	background: #642094;
+	border: 4px solid white;
+	border-radius: 30px;
+	font-size: 20px;
+	color: white;
+}
+.main-div button:hover{
+	transform: scale(1.03);
+}
+.main-div button:active{
+	transform: scale(1);
+}
+.about-div{
+	height:650px;
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	
+}
+.about-div h1{
+	color: #642094;
+}
+.about-div p{
+	font-size: 13px;
+}
+.about-div h2{
+	color: #CCCCCC;
+}
+
+
+.services-div{
+	position: inherit;
+	display: inline-table;
+	width: 100%;
+	background-color: #EFE1F0;
+	height:750px;
+}
+.services-div>h1{
+	padding-top: 80px;
+	text-align: center;
+	color: #642094;
+
+}
+.services-div p{
+	color: black;
+	font-size: 14px;
+}
+
+.card {
+	width: 49%;
+	height: 300px;
+	margin-top: 120px;
+	padding-top: 50px;
+	float: left;
+}
+
+#firstCard{
+	text-align: center;
+	color: #24C8B8;
+	border-right: 3px solid #642094;
+}
+#secondCard{
+	text-align: center;
+	color: #FF6BE6;
+	border-left: 3px solid #642094;
+}
+.services-div button{
+	background-color: transparent;
+	padding: 6px;
+	width: 30%;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#btn-first{
+	border: 2px solid #24C8B8;
+	color: #24C8B8;
+}
+#btn-first:hover{
+	background-color: #24C8B8;
+	color: white;
+}
+#btn-second{
+	border: 2px solid #FF6BE6;
+	color: #FF6BE6;
+}
+#btn-second:hover{
+	background-color: #FF6BE6;
+	color: white;
+}
+.footer{
+	height:300px;
+	background-color: #333333;
+	color: white;
+	position: inherit;
+	display: inline-table;
+	width: 100%;
+	font-family: Verdana;
+}
+.footer h4{
+	color: white;
+}
+.footer a{
+	color: white;
+}
+.footer p{
+	font-size: 14px;
+}
+.footer div{
+	float: left;
+	margin-left: 10%;;
+}
+.footer .links-div{
+	width:200px;
+}
+
+@media screen and (max-width:620px) {
+	.main-div{
+		padding-top: 350px;
+	}
+	.main-div button{
+		width:200px;
+		height: 40px;
+		font-size: 15px;
+	}
+}
+
+
+
+
