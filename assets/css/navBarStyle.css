@@ -1,0 +1,46 @@
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:auto;
+  box-shadow: 0 1px 6px 1px #333;
+}
+
+.topnav a{
+	font-family: Verdana;
+	float:left;
+	display: block;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #642094;
+}
+.topnav a h4:hover{
+	background-image: linear-gradient(to bottom, #642094, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	transform: scale(1.1);
+}
+
+.topnav .btn-nav{
+	float: right;
+}
+.topnav .btn-nav:active{
+	transform: scale(1.05);
+}
+.topnav h3{
+	border: 2px solid #642094;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 0;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+@media screen and (max-width:620px) {
+	.topnav h4,h3{
+		font-size:13px;
+	}
+}
